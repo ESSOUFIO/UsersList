@@ -1,0 +1,26 @@
+.Button,
+.CancelBtn {
+  padding: 8px 18px;
+  margin: 0 10px;
+  background: rgb(31, 166, 31);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background: rgb(20, 110, 20);
+}
+
+.CancelBtn {
+  background: white;
+  color: rgb(31, 166, 31);
+  border: 2px solid rgb(31, 166, 31);
+  padding: 6px 16px;
+}
+
+.CancelBtn:hover {
+  background: rgb(236, 255, 238);
+}

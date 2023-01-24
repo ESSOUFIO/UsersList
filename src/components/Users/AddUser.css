@@ -1,0 +1,27 @@
+.InputWrap {
+  margin: 15px;
+}
+.InputWrap input,
+.InputWrap select {
+  height: 30px;
+  min-width: 200px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.InputWrap select {
+  min-width: 80px;
+}
+
+.InputWrap > label {
+  display: inline-block;
+  width: 80px;
+  font-size: 15px;
+}
+
+.InputWrap > input:focus {
+  outline: 1px solid rgb(101, 101, 244);
+  border: none;
+  box-shadow: 0 0 5px rgb(125, 125, 249);
+}
